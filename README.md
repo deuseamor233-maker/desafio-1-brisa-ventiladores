@@ -12,9 +12,9 @@ A Brisa Ventiladores é uma loja fictícia de ventiladores criada para o primeir
 
 | Produto | Descrição | Preço |
 |---|---|---:|
-| Ventilador de Mesa | Compacto e prático para espaços menores | R$ 129,90 |
-| Ventilador de Coluna | Modelo com altura ajustável | R$ 219,90 |
-| Ventilador de Parede | Ajuda a economizar espaço | R$ 179,90 |
+| Ventilador de Mesa | Compacto e prático para espaços menores | R$ 99,90 |
+| Ventilador de Coluna | Modelo com altura ajustável | R$ 199,90 |
+| Ventilador de Parede | Ajuda a economizar espaço | R$ 150,90 |
 
 **Regra de desconto:** compras com subtotal igual ou superior a R$ 300,00 recebem 10% de desconto. Essa regra foi definida para este projeto.
 
