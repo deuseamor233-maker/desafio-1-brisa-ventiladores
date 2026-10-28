@@ -16,7 +16,7 @@ A Brisa Ventiladores é uma loja fictícia de ventiladores criada para o primeir
 | Ventilador de Coluna | Modelo com altura ajustável | R$ 199,90 |
 | Ventilador de Parede | Ajuda a economizar espaço | R$ 150,90 |
 
-**Regra de desconto:** compras com subtotal igual ou superior a R$ 300,00 recebem 10% de desconto. Essa regra foi definida para este projeto.
+**Regra de desconto:** compras com subtotal igual ou superior a R$ 250,00 recebem 10% de desconto. Essa regra foi definida para este projeto.
 
 ## Tecnologias utilizadas
 
@@ -47,9 +47,9 @@ Depois de adicionar a imagem ao repositório, ela aparecerá abaixo:
 Marque os testes depois de executá-los no navegador:
 
 - [ ] Digitar `0` para os três produtos informa que nenhum produto foi selecionado.
-- [ ] Comprar 1 ventilador de mesa mostra total de R$ 129,90 e nenhum desconto.
-- [ ] Comprar 2 ventiladores de mesa mostra subtotal de R$ 259,80 e nenhum desconto.
-- [ ] Comprar 1 ventilador de mesa e 1 de coluna mostra subtotal de R$ 349,80, desconto de R$ 34,98 e total de R$ 314,82.
+- [ ] Comprar 1 ventilador de mesa mostra total de R$ 99,90 e nenhum desconto.
+- [ ] Comprar 2 ventiladores de mesa mostra subtotal de R$ 199,80 e nenhum desconto.
+- [ ] Comprar 1 ventilador de mesa e 1 de coluna mostra subtotal de R$ 349,80, desconto de R$ 29,98 e total de R$ 269,82.
 - [ ] Digitar uma quantidade negativa, decimal ou texto apresenta mensagem de quantidade inválida.
 
 ## Dificuldade encontrada e aprendizado
