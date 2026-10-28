@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
 
 :root {
-  --azul: #1769aa;
-  --azul-escuro: #104a78;
-  --azul-claro: #e8f4fc;
+  --verde: #006400;
+  --verde-escuro: #2F4F4F;
+  --verde-claro: #00FA9A;
   --fundo: #f5f9fc;
-  --texto: #243746;
-  --verde: #28734b;
+  --texto-verde-oliva: #556B2F;
+  --vermelho: ##FF0000;
 }
 
 * {
