@@ -33,8 +33,8 @@ function simularCompra() {
   const totalParede = precoParede * qtdParede;
   const subtotal = totalMesa + totalColuna + totalParede;
 
-  // Regra do projeto: 10% de desconto para subtotal igual ou maior que R$ 300,00.
-  const desconto = subtotal >= 300 ? subtotal * 0.10 : 0;
+  // Regra do projeto: 10% de desconto para subtotal igual ou maior que R$ 250,00.
+  const desconto = subtotal >= 250 ? subtotal * 0.10 : 0;
   const totalFinal = subtotal - desconto;
 
   const resultado =
@@ -43,7 +43,7 @@ function simularCompra() {
     "Ventilador de Coluna: " + qtdColuna + " x " + formatarMoeda(precoColuna) + " = " + formatarMoeda(totalColuna) + "\n" +
     "Ventilador de Parede: " + qtdParede + " x " + formatarMoeda(precoParede) + " = " + formatarMoeda(totalParede) + "\n\n" +
     "Subtotal: " + formatarMoeda(subtotal) + "\n" +
-    "Desconto: " + formatarMoeda(desconto) + (desconto > 0 ? " (10%)" : " (não atingiu R$ 300,00)") + "\n" +
+    "Desconto: " + formatarMoeda(desconto) + (desconto > 0 ? " (10%)" : " (não atingiu R$ 250,00)") + "\n" +
     "TOTAL A PAGAR: " + formatarMoeda(totalFinal);
 
   alert(resultado);
