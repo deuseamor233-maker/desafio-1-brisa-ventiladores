@@ -1,6 +1,6 @@
 # Desafio 1 — Minha Loja: Simulador de Compras
 
-**Aluno(a):** Paula Desenhista  
+**Aluno(a):** Paula Garreto 
 **Trilha:** Desenvolvimento Mobile  
 **Projeto:** Brisa Ventiladores
 
