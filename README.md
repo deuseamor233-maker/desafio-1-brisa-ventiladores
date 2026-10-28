@@ -2,11 +2,11 @@
 
 **Aluno(a):** Paula Garreto 
 **Trilha:** Desenvolvimento Mobile  
-**Projeto:** Brisa Ventiladores
+**Projeto:** Vine Ventiladores
 
 ## Apresentação da loja
 
-A Brisa Ventiladores é uma loja fictícia de ventiladores criada para o primeiro desafio da trilha. A página apresenta três modelos e permite simular uma compra usando perguntas do JavaScript.
+A loja Vine Ventiladores é uma loja fictícia de ventiladores criada para o primeiro desafio da trilha. A página apresenta três modelos e permite simular uma compra usando perguntas do JavaScript.
 
 ## Produtos e preços
 
