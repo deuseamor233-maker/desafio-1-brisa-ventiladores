@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+:root {
+  --azul: #1769aa;
+  --azul-escuro: #104a78;
+  --azul-claro: #e8f4fc;
+  --fundo: #f5f9fc;
+  --texto: #243746;
+  --verde: #28734b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: 'Nunito', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.topo {
+  padding: 52px 20px 58px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, var(--azul-escuro), var(--azul));
+}
+
+.marca-pequena, .etiqueta {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.topo h1 {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  line-height: 1.2;
+}
+
+.topo p:last-child {
+  margin: 12px 0 0;
+}
+
+.container {
+  width: min(1050px, 92%);
+  margin: 0 auto;
+  padding: 38px 0 48px;
+}
+
+.apresentacao {
+  max-width: 650px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.etiqueta {
+  color: var(--azul);
+}
+
+.apresentacao h2, .simulador h2 {
+  margin: 0 0 8px;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+.apresentacao p:last-child {
+  margin: 0;
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.produto {
+  padding: 25px 22px;
+  background: white;
+  border: 1px solid #dceaf5;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(16, 74, 120, 0.07);
+  text-align: center;
+}
+
+.produto-icone {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 12px;
+  background: var(--azul-claro);
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+
+.produto h3 {
+  margin: 8px 0;
+  color: var(--azul-escuro);
+}
+
+.produto p {
+  margin: 8px 0;
+}
+
+.preco {
+  color: var(--verde);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.simulador {
+  margin-top: 28px;
+  padding: 30px 22px;
+  border-radius: 18px;
+  background: var(--azul-claro);
+  text-align: center;
+}
+
+.desconto-info {
+  color: var(--azul-escuro);
+  font-weight: 800;
+}
+
+button {
+  margin-top: 8px;
+  padding: 14px 28px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--azul);
+  color: white;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+  background: var(--azul-escuro);
+  transform: translateY(-2px);
+}
+
+button:focus-visible {
+  outline: 3px solid var(--verde);
+  outline-offset: 4px;
+}
+
+footer {
+  padding: 20px;
+  background: #17354b;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .produtos {
+    grid-template-columns: 1fr;
+  }
+
+  .topo {
+    padding: 40px 18px;
+  }
+
+  .produto {
+    padding: 22px 18px;
+  }
+}
