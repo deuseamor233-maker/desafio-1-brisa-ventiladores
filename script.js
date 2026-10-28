@@ -38,7 +38,7 @@ function simularCompra() {
   const totalFinal = subtotal - desconto;
 
   const resultado =
-    "RESUMO DA SUA COMPRA — BRISA VENTILADORES\n\n" +
+    "RESUMO DA SUA COMPRA — VINE VENTILADORES\n\n" +
     "Ventilador de Mesa: " + qtdMesa + " x " + formatarMoeda(precoMesa) + " = " + formatarMoeda(totalMesa) + "\n" +
     "Ventilador de Coluna: " + qtdColuna + " x " + formatarMoeda(precoColuna) + " = " + formatarMoeda(totalColuna) + "\n" +
     "Ventilador de Parede: " + qtdParede + " x " + formatarMoeda(precoParede) + " = " + formatarMoeda(totalParede) + "\n\n" +
