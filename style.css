@@ -16,7 +16,7 @@
 body {
   margin: 0;
   background: var(--fundo);
-  color: var(--texto);
+  color: var(--texto-verde-oliva);
   font-family: 'Nunito', Arial, sans-serif;
   line-height: 1.6;
 }
@@ -25,7 +25,7 @@ body {
   padding: 52px 20px 58px;
   text-align: center;
   color: white;
-  background: linear-gradient(135deg, var(--azul-escuro), var(--azul));
+  background: linear-gradient(135deg, var(--verde-escuro), var(--verde));
 }
 
 .marca-pequena, .etiqueta {
@@ -58,7 +58,7 @@ body {
 }
 
 .etiqueta {
-  color: var(--azul);
+  color: var(--verde);
 }
 
 .apresentacao h2, .simulador h2 {
@@ -91,14 +91,14 @@ body {
   width: 76px;
   height: 76px;
   margin: 0 auto 12px;
-  background: var(--azul-claro);
+  background: var(--verde-claro);
   border-radius: 50%;
   font-size: 2.5rem;
 }
 
 .produto h3 {
   margin: 8px 0;
-  color: var(--azul-escuro);
+  color: var(--verde-escuro);
 }
 
 .produto p {
@@ -106,7 +106,7 @@ body {
 }
 
 .preco {
-  color: var(--verde);
+  color: var(--vermelho);
   font-size: 1.35rem;
   font-weight: 800;
 }
@@ -115,12 +115,12 @@ body {
   margin-top: 28px;
   padding: 30px 22px;
   border-radius: 18px;
-  background: var(--azul-claro);
+  background: var(--verde-claro);
   text-align: center;
 }
 
 .desconto-info {
-  color: var(--azul-escuro);
+  color: var(--verde-escuro);
   font-weight: 800;
 }
 
@@ -129,7 +129,7 @@ button {
   padding: 14px 28px;
   border: 0;
   border-radius: 999px;
-  background: var(--azul);
+  background: var(--verde);
   color: white;
   font: inherit;
   font-weight: 800;
@@ -138,12 +138,12 @@ button {
 }
 
 button:hover {
-  background: var(--azul-escuro);
+  background: var(--verde-escuro);
   transform: translateY(-2px);
 }
 
 button:focus-visible {
-  outline: 3px solid var(--verde);
+  outline: 3px solid var(--vermelho);
   outline-offset: 4px;
 }
 
