@@ -1,7 +1,7 @@
 // Os preços devem ser iguais aos que aparecem no catálogo da página.
-const precoMesa = 99,90;
-const precoColuna = 199,90;
-const precoParede = 150,90;
+const precoMesa = 99.90;
+const precoColuna = 199.90;
+const precoParede = 150.90;
 
 function simularCompra() {
   // prompt() recebe texto. Number() converte a resposta em número.
