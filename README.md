@@ -40,7 +40,7 @@ Abra `index.html` no navegador, tire uma captura de tela mostrando o nome da loj
 
 Depois de adicionar a imagem ao repositório, ela aparecerá abaixo:
 
-![Captura de tela da Brisa Ventiladores](assets/captura.png)
+![Captura de tela da Vine Ventiladores](assets/captura.png)
 
 ## Testes realizados
 
